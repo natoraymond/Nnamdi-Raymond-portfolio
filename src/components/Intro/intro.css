@@ -1,0 +1,254 @@
+#intro {
+     display: flex;
+    align-items: center;
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    padding-top: 6rem;
+    padding-right: 1rem;
+    padding-left: 3rem;
+}
+
+.bg {
+    position: absolute;
+     top: -1rem;
+    right: 0;
+    z-index: -4rem;
+    object-fit: contain;
+    height: 100vh;
+    margin: 1rem auto;
+    padding-right: 2rem;
+}
+
+.introContent {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introName {
+    color: yellow;
+}
+
+.introPara{
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.btn {
+  background: yellow;
+  margin: 1rem 0;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 1.5rem;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  width: 10%;
+  height: 5%;
+}
+
+
+.btnImg {
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+}
+
+/*++++++++ */
+
+/* Modal background */
+.cvModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Modal content */
+.cvModalContent {
+  position: relative;
+  width: 90%;
+  max-width: 900px;
+  height: 90%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Close button */
+.closeBtn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* PDF iframe */
+.cvFrame {
+  flex: 1;
+  width: 100%;
+  border: none;
+  margin-top: 2rem;
+}
+/* Download button */
+.downloadBtn {
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  border: none;
+  background: #000;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  height: 50%;
+}
+
+
+@media (max-width: 900px) {
+    .bg {
+      max-width: 60%;
+      right: -30%;
+    }
+  
+    .introContent {
+      font-size: 2.3rem;
+    }
+    .btn {
+       width: 20%; 
+    }
+   
+    .downloadBtn {
+      margin-top: 1rem; 
+      padding: 0.5rem 2rem;
+      border-radius: 1rem;
+      border: none;
+      background: #000;
+      color: white;
+      cursor: pointer;
+      width: 50%;
+      height: 10%;
+      display: flex;
+      text-align: center;
+    }
+  }
+
+@media screen and (max-width: 840px){
+    .introContent {
+        font-size: 10vw;
+    }
+    .hello {
+        font-size: 4.5vw;
+    }
+    .btn {
+      display: flex;
+      height: 50%; 
+      justify-content: center;
+      align-items: center;
+    }
+     .bg {
+        right: -20vw;
+    }
+
+    #intro {
+        flex-direction: column;
+        text-align: center;
+      }
+    
+      .bg {
+        position: relative;
+        max-width: 85%;
+        height: auto;
+        margin-top: 2rem;
+        right: 0;
+      }
+
+    .downloadBtn {
+      margin-top: 1rem; 
+      /* padding: 0.5rem 2rem; */
+      border-radius: 1rem;
+      border: none;
+      background: #000;
+      color: white;
+      cursor: pointer;
+      /* width: 50%;
+      height: 100%; */
+      /* display: block; */
+    }
+}
+
+@media screen and (max-width: 480px){
+    .bg {
+        right: -20vw;
+    }
+
+    #intro {
+        flex-direction: column;
+        text-align: center;
+      }
+    
+      .bg {
+        position: relative;
+        max-width: 85%;
+        height: auto;
+        margin-top: 2rem;
+        right: 0;
+      }
+    
+      .introContent {
+        font-size: 1.8rem;
+        align-items: center;
+      }
+    
+      .hello {
+        font-size: 1.2rem;
+      }
+    
+      .btn {
+          width: 50%;
+          height: 25%;
+
+      }
+      .downloadBtn {
+        margin-top: 1rem; 
+        padding: 0.5rem 2rem;
+        border-radius: 1rem;
+        border: none;
+        background: #000;
+        color: white;
+        cursor: pointer;
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    
+  }

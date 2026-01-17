@@ -3,14 +3,14 @@ import './works.css';
 
 const Works = () => {
   const images = [
-    { src: './src/assets/images/portfolio6.jpeg', link: 'https://covid19-tracker-app-natoraymond.vercel.app' },
-    { src: './src/assets/images/fintech12s.jpeg', link: 'https://paylink-afrika.vercel.app' },
-    { src: './src/assets/images/portfolio4.jpeg', link: 'https://student-agent-service.vercel.app' },
-    { src: './src/assets/images/fitness1sa.jpeg', link: 'https://fitness-app-taupe-nine.vercel.app/' },
-
-    { src: './src/assets/images/estate1sa.jpeg', link: 'https://student-agent-service.vercel.app' },
-    { src: './src/assets/images/idcard1s.png', link: 'https://fitness-app-taupe-nine.vercel.app/' },
-    { src: './src/assets/images/idcard1s.png', link: 'https://example.com/work6' },
+    { src: '/images/portfolio6.jpeg', link: 'https://covid19-tracker-app-natoraymond.vercel.app' },
+    { src: '/images/fintech12s.jpeg', link: 'https://paylink-afrika.vercel.app' },
+    { src: '/images/portfolio4.jpeg', link: 'https://student-agent-service.vercel.app' },
+    { src: '/images/fitness1sa.jpeg', link: 'https://fitness-app-taupe-nine.vercel.app/' },
+    { src: '/images/estate1sa.jpeg', link: 'https://student-agent-service.vercel.app' },
+    { src: '/images/idcard1s.png', link: 'https://fitness-app-taupe-nine.vercel.app/' },
+    { src: '/images/idcard1s.png', link: 'https://example.com/work6' },
+    
     { src: './src/assets/images/portfolio3.jpeg', link: 'https://example.com/work3' },
     { src: './src/assets/images/portfolio4.jpeg', link: 'https://example.com/work4' },
     { src: './src/assets/images/portfolio5.jpeg', link: 'https://example.com/work5' },

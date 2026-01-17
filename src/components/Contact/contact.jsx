@@ -71,7 +71,7 @@ const Contact = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="./src/assets/images/facebook.jpeg" alt="Facebook" className="link" />
+            <img src="/images/facebook.jpeg" alt="Facebook" className="link" />
           </a>
 
           <a
@@ -79,7 +79,7 @@ const Contact = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="./src/assets/images/Github.jpeg" alt="GitHub" className="link" />
+            <img src="/images/Github.jpeg" alt="GitHub" className="link" />
           </a>
 
           <a
@@ -87,7 +87,7 @@ const Contact = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="./src/assets/images/linkedin.jpeg" alt="LinkedIn" className="link" />
+            <img src="/images/linkedin.jpeg" alt="LinkedIn" className="link" />
           </a>
 
           <a
@@ -95,7 +95,7 @@ const Contact = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="./src/assets/images/twitt.jpeg" alt="Twitter / X" className="link" />
+            <img src="/images/twitt.jpeg" alt="Twitter / X" className="link" />
           </a>
         </div>
       </div>

@@ -20,12 +20,12 @@ const Intro = () => {
 
         {/* Hire Me Button */}
         <button className="btn" onClick={handleOpenCV}>
-          <img src="./src/assets/images/hire-me.jpeg" alt="hire me" className='btnImg' />
+          <img src="/images/hire-me.jpeg" alt="hire me" className='btnImg' />
           Hire Me
         </button>
       </div>
 
-      <img src="./src/assets/images/pic1.jpeg" alt="pic" className="bg" />
+      <img src="/images/pic1.jpeg" alt="pic" className="bg" />
 
       {/* Modal for CV Preview */}
       {showModal && (

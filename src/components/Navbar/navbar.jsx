@@ -10,7 +10,8 @@ const Navbar = () => {
   return (
     <div>
       <nav className="navbar">
-        <img src="./src/assets/images/logo.jpeg" className='logo' alt="logo" />
+        {/* <img src="./src/assets/images/logo.jpeg" className='logo' alt="logo" /> */}
+        <img src="/images/logo.jpeg" className='logo' alt="logo" />
         <div className="dsektopMenu">
             <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Home</Link>
             <Link  activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">About</Link>
@@ -21,7 +22,7 @@ const Navbar = () => {
           document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
 
         }}>
-            <img src="./src/assets/images/contact11.jpeg" alt="contact" className="desktopMenuImg" />Contact Me
+            <img src="images/contact11.jpeg" alt="contact" className="desktopMenuImg" />Contact Me
           </button>
 
             <img src="./src/assets/images/menu1.jpeg" alt="menu" className='mobMenu'  id='mobMenuImg' onClick={() => setShowMenu(!showMenu)} />

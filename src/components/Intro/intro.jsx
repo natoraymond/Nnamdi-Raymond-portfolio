@@ -33,7 +33,8 @@ const Intro = () => {
           <div className="cvModalContent">
             <button className="closeBtn" onClick={handleCloseCV}>X</button>
             <iframe
-              src="/files/Nnamdi Cv Pdf.pdf"  // My PDF is in public/files/
+              // src="/files/Nnamdi Cv Pdf.pdf"  // My PDF is in public/files/
+               src="/files//NNAMDI CV Prog-2026.doc"
               title="Nnamdi Nnadi CV"
               className="cvFrame"
             ></iframe>
